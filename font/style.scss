@@ -1,0 +1,1980 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?53cfmp');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?53cfmp#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?53cfmp') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?53cfmp') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?53cfmp##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="morph-icon-"], [class*=" morph-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.morph-icon-aboutShield {
+  &:before {
+    content: $morph-icon-aboutShield; 
+  }
+}
+.morph-icon-addContact {
+  &:before {
+    content: $morph-icon-addContact; 
+  }
+}
+.morph-icon-addCreditCard {
+  &:before {
+    content: $morph-icon-addCreditCard; 
+  }
+}
+.morph-icon-addFile {
+  &:before {
+    content: $morph-icon-addFile; 
+  }
+}
+.morph-icon-addFolder {
+  &:before {
+    content: $morph-icon-addFolder; 
+  }
+}
+.morph-icon-addFrame {
+  &:before {
+    content: $morph-icon-addFrame; 
+  }
+}
+.morph-icon-addFrameAlt {
+  &:before {
+    content: $morph-icon-addFrameAlt; 
+  }
+}
+.morph-icon-addFrameAlt2 {
+  &:before {
+    content: $morph-icon-addFrameAlt2; 
+  }
+}
+.morph-icon-addMail {
+  &:before {
+    content: $morph-icon-addMail; 
+  }
+}
+.morph-icon-addMessage {
+  &:before {
+    content: $morph-icon-addMessage; 
+  }
+}
+.morph-icon-addMicrophone {
+  &:before {
+    content: $morph-icon-addMicrophone; 
+  }
+}
+.morph-icon-addPackage {
+  &:before {
+    content: $morph-icon-addPackage; 
+  }
+}
+.morph-icon-addPassword {
+  &:before {
+    content: $morph-icon-addPassword; 
+  }
+}
+.morph-icon-addPhoneCall {
+  &:before {
+    content: $morph-icon-addPhoneCall; 
+  }
+}
+.morph-icon-addShield {
+  &:before {
+    content: $morph-icon-addShield; 
+  }
+}
+.morph-icon-addStore {
+  &:before {
+    content: $morph-icon-addStore; 
+  }
+}
+.morph-icon-addTo {
+  &:before {
+    content: $morph-icon-addTo; 
+  }
+}
+.morph-icon-addToBag {
+  &:before {
+    content: $morph-icon-addToBag; 
+  }
+}
+.morph-icon-addToBasket {
+  &:before {
+    content: $morph-icon-addToBasket; 
+  }
+}
+.morph-icon-addToGrid {
+  &:before {
+    content: $morph-icon-addToGrid; 
+  }
+}
+.morph-icon-addToWallet {
+  &:before {
+    content: $morph-icon-addToWallet; 
+  }
+}
+.morph-icon-airflow {
+  &:before {
+    content: $morph-icon-airflow; 
+  }
+}
+.morph-icon-airplane {
+  &:before {
+    content: $morph-icon-airplane; 
+  }
+}
+.morph-icon-airPollution {
+  &:before {
+    content: $morph-icon-airPollution; 
+  }
+}
+.morph-icon-allowedCargo {
+  &:before {
+    content: $morph-icon-allowedCargo; 
+  }
+}
+.morph-icon-ambulance {
+  &:before {
+    content: $morph-icon-ambulance; 
+  }
+}
+.morph-icon-archive {
+  &:before {
+    content: $morph-icon-archive; 
+  }
+}
+.morph-icon-aspecratioGrid {
+  &:before {
+    content: $morph-icon-aspecratioGrid; 
+  }
+}
+.morph-icon-attachFile {
+  &:before {
+    content: $morph-icon-attachFile; 
+  }
+}
+.morph-icon-attachFolder {
+  &:before {
+    content: $morph-icon-attachFolder; 
+  }
+}
+.morph-icon-autoDelete {
+  &:before {
+    content: $morph-icon-autoDelete; 
+  }
+}
+.morph-icon-babyCar {
+  &:before {
+    content: $morph-icon-babyCar; 
+  }
+}
+.morph-icon-back {
+  &:before {
+    content: $morph-icon-back; 
+  }
+}
+.morph-icon-backward {
+  &:before {
+    content: $morph-icon-backward; 
+  }
+}
+.morph-icon-backward10seconds {
+  &:before {
+    content: $morph-icon-backward10seconds; 
+  }
+}
+.morph-icon-backward15seconds {
+  &:before {
+    content: $morph-icon-backward15seconds; 
+  }
+}
+.morph-icon-bag {
+  &:before {
+    content: $morph-icon-bag; 
+  }
+}
+.morph-icon-bagAlt {
+  &:before {
+    content: $morph-icon-bagAlt; 
+  }
+}
+.morph-icon-bagConfirmed {
+  &:before {
+    content: $morph-icon-bagConfirmed; 
+  }
+}
+.morph-icon-basket {
+  &:before {
+    content: $morph-icon-basket; 
+  }
+}
+.morph-icon-basketAlt {
+  &:before {
+    content: $morph-icon-basketAlt; 
+  }
+}
+.morph-icon-basketConfirmed {
+  &:before {
+    content: $morph-icon-basketConfirmed; 
+  }
+}
+.morph-icon-basketError {
+  &:before {
+    content: $morph-icon-basketError; 
+  }
+}
+.morph-icon-basketHelp {
+  &:before {
+    content: $morph-icon-basketHelp; 
+  }
+}
+.morph-icon-bellNotificationHistory {
+  &:before {
+    content: $morph-icon-bellNotificationHistory; 
+  }
+}
+.morph-icon-bicycle {
+  &:before {
+    content: $morph-icon-bicycle; 
+  }
+}
+.morph-icon-birthCertificate {
+  &:before {
+    content: $morph-icon-birthCertificate; 
+  }
+}
+.morph-icon-blockedMails {
+  &:before {
+    content: $morph-icon-blockedMails; 
+  }
+}
+.morph-icon-blockedMessage {
+  &:before {
+    content: $morph-icon-blockedMessage; 
+  }
+}
+.morph-icon-blockedPhoneCall {
+  &:before {
+    content: $morph-icon-blockedPhoneCall; 
+  }
+}
+.morph-icon-blockedWallet {
+  &:before {
+    content: $morph-icon-blockedWallet; 
+  }
+}
+.morph-icon-bookmarkedMails {
+  &:before {
+    content: $morph-icon-bookmarkedMails; 
+  }
+}
+.morph-icon-borderAlign {
+  &:before {
+    content: $morph-icon-borderAlign; 
+  }
+}
+.morph-icon-bottom {
+  &:before {
+    content: $morph-icon-bottom; 
+  }
+}
+.morph-icon-bus {
+  &:before {
+    content: $morph-icon-bus; 
+  }
+}
+.morph-icon-BusAlt {
+  &:before {
+    content: $morph-icon-BusAlt; 
+  }
+}
+.morph-icon-busAlt1 {
+  &:before {
+    content: $morph-icon-busAlt1; 
+  }
+}
+.morph-icon-busStation {
+  &:before {
+    content: $morph-icon-busStation; 
+  }
+}
+.morph-icon-CabinClass {
+  &:before {
+    content: $morph-icon-CabinClass; 
+  }
+}
+.morph-icon-camion {
+  &:before {
+    content: $morph-icon-camion; 
+  }
+}
+.morph-icon-car {
+  &:before {
+    content: $morph-icon-car; 
+  }
+}
+.morph-icon-carAlt {
+  &:before {
+    content: $morph-icon-carAlt; 
+  }
+}
+.morph-icon-carriage {
+  &:before {
+    content: $morph-icon-carriage; 
+  }
+}
+.morph-icon-carryingPackages {
+  &:before {
+    content: $morph-icon-carryingPackages; 
+  }
+}
+.morph-icon-cementMixer {
+  &:before {
+    content: $morph-icon-cementMixer; 
+  }
+}
+.morph-icon-centerAlign {
+  &:before {
+    content: $morph-icon-centerAlign; 
+  }
+}
+.morph-icon-chargingStation {
+  &:before {
+    content: $morph-icon-chargingStation; 
+  }
+}
+.morph-icon-circleProfile {
+  &:before {
+    content: $morph-icon-circleProfile; 
+  }
+}
+.morph-icon-cloudDust {
+  &:before {
+    content: $morph-icon-cloudDust; 
+  }
+}
+.morph-icon-cloud {
+  &:before {
+    content: $morph-icon-cloud; 
+  }
+}
+.morph-icon-cloudFolder {
+  &:before {
+    content: $morph-icon-cloudFolder; 
+  }
+}
+.morph-icon-collageFrame {
+  &:before {
+    content: $morph-icon-collageFrame; 
+  }
+}
+.morph-icon-colorFilter {
+  &:before {
+    content: $morph-icon-colorFilter; 
+  }
+}
+.morph-icon-colorPicker {
+  &:before {
+    content: $morph-icon-colorPicker; 
+  }
+}
+.morph-icon-colorPickerEmpty {
+  &:before {
+    content: $morph-icon-colorPickerEmpty; 
+  }
+}
+.morph-icon-combineItem {
+  &:before {
+    content: $morph-icon-combineItem; 
+  }
+}
+.morph-icon-copy {
+  &:before {
+    content: $morph-icon-copy; 
+  }
+}
+.morph-icon-copyItem {
+  &:before {
+    content: $morph-icon-copyItem; 
+  }
+}
+.morph-icon-creditCard {
+  &:before {
+    content: $morph-icon-creditCard; 
+  }
+}
+.morph-icon-creditCardHistory {
+  &:before {
+    content: $morph-icon-creditCardHistory; 
+  }
+}
+.morph-icon-creditCards {
+  &:before {
+    content: $morph-icon-creditCards; 
+  }
+}
+.morph-icon-crop {
+  &:before {
+    content: $morph-icon-crop; 
+  }
+}
+.morph-icon-cropRotateACW {
+  &:before {
+    content: $morph-icon-cropRotateACW; 
+  }
+}
+.morph-icon-cropRotateCW {
+  &:before {
+    content: $morph-icon-cropRotateCW; 
+  }
+}
+.morph-icon-damagedFile {
+  &:before {
+    content: $morph-icon-damagedFile; 
+  }
+}
+.morph-icon-damagedFolder {
+  &:before {
+    content: $morph-icon-damagedFolder; 
+  }
+}
+.morph-icon-delete {
+  &:before {
+    content: $morph-icon-delete; 
+  }
+}
+.morph-icon-deliveredMessage {
+  &:before {
+    content: $morph-icon-deliveredMessage; 
+  }
+}
+.morph-icon-disablePassword {
+  &:before {
+    content: $morph-icon-disablePassword; 
+  }
+}
+.morph-icon-down {
+  &:before {
+    content: $morph-icon-down; 
+  }
+}
+.morph-icon-download {
+  &:before {
+    content: $morph-icon-download; 
+  }
+}
+.morph-icon-downloadAlt {
+  &:before {
+    content: $morph-icon-downloadAlt; 
+  }
+}
+.morph-icon-downloadFile {
+  &:before {
+    content: $morph-icon-downloadFile; 
+  }
+}
+.morph-icon-downside {
+  &:before {
+    content: $morph-icon-downside; 
+  }
+}
+.morph-icon-downwards {
+  &:before {
+    content: $morph-icon-downwards; 
+  }
+}
+.morph-icon-edit {
+  &:before {
+    content: $morph-icon-edit; 
+  }
+}
+.morph-icon-editContact {
+  &:before {
+    content: $morph-icon-editContact; 
+  }
+}
+.morph-icon-editMail {
+  &:before {
+    content: $morph-icon-editMail; 
+  }
+}
+.morph-icon-editMessage {
+  &:before {
+    content: $morph-icon-editMessage; 
+  }
+}
+.morph-icon-electricCar {
+  &:before {
+    content: $morph-icon-electricCar; 
+  }
+}
+.morph-icon-electricScooter {
+  &:before {
+    content: $morph-icon-electricScooter; 
+  }
+}
+.morph-icon-exclude {
+  &:before {
+    content: $morph-icon-exclude; 
+  }
+}
+.morph-icon-excludeAlt {
+  &:before {
+    content: $morph-icon-excludeAlt; 
+  }
+}
+.morph-icon-faceID {
+  &:before {
+    content: $morph-icon-faceID; 
+  }
+}
+.morph-icon-failedCall {
+  &:before {
+    content: $morph-icon-failedCall; 
+  }
+}
+.morph-icon-faNumberScan {
+  &:before {
+    content: $morph-icon-faNumberScan; 
+  }
+}
+.morph-icon-fastForward {
+  &:before {
+    content: $morph-icon-fastForward; 
+  }
+}
+.morph-icon-fastRewind {
+  &:before {
+    content: $morph-icon-fastRewind; 
+  }
+}
+.morph-icon-favoriteMails {
+  &:before {
+    content: $morph-icon-favoriteMails; 
+  }
+}
+.morph-icon-favoriteMessage {
+  &:before {
+    content: $morph-icon-favoriteMessage; 
+  }
+}
+.morph-icon-favoriteWallet {
+  &:before {
+    content: $morph-icon-favoriteWallet; 
+  }
+}
+.morph-icon-file {
+  &:before {
+    content: $morph-icon-file; 
+  }
+}
+.morph-icon-fileAlert {
+  &:before {
+    content: $morph-icon-fileAlert; 
+  }
+}
+.morph-icon-fileConfirmed {
+  &:before {
+    content: $morph-icon-fileConfirmed; 
+  }
+}
+.morph-icon-fileEdit {
+  &:before {
+    content: $morph-icon-fileEdit; 
+  }
+}
+.morph-icon-fingerPrint {
+  &:before {
+    content: $morph-icon-fingerPrint; 
+  }
+}
+.morph-icon-fingerPrintDisabled {
+  &:before {
+    content: $morph-icon-fingerPrintDisabled; 
+  }
+}
+.morph-icon-fingerPrintScan {
+  &:before {
+    content: $morph-icon-fingerPrintScan; 
+  }
+}
+.morph-icon-firelight {
+  &:before {
+    content: $morph-icon-firelight; 
+  }
+}
+.morph-icon-flipHorizontal {
+  &:before {
+    content: $morph-icon-flipHorizontal; 
+  }
+}
+.morph-icon-flipVertical {
+  &:before {
+    content: $morph-icon-flipVertical; 
+  }
+}
+.morph-icon-flyDestination {
+  &:before {
+    content: $morph-icon-flyDestination; 
+  }
+}
+.morph-icon-flyOrigin {
+  &:before {
+    content: $morph-icon-flyOrigin; 
+  }
+}
+.morph-icon-fog {
+  &:before {
+    content: $morph-icon-fog; 
+  }
+}
+.morph-icon-folder {
+  &:before {
+    content: $morph-icon-folder; 
+  }
+}
+.morph-icon-folderConfirmed {
+  &:before {
+    content: $morph-icon-folderConfirmed; 
+  }
+}
+.morph-icon-folderEdit {
+  &:before {
+    content: $morph-icon-folderEdit; 
+  }
+}
+.morph-icon-forward {
+  &:before {
+    content: $morph-icon-forward; 
+  }
+}
+.morph-icon-forward10seconds {
+  &:before {
+    content: $morph-icon-forward10seconds; 
+  }
+}
+.morph-icon-forward15seconds {
+  &:before {
+    content: $morph-icon-forward15seconds; 
+  }
+}
+.morph-icon-frame {
+  &:before {
+    content: $morph-icon-frame; 
+  }
+}
+.morph-icon-frameAlt {
+  &:before {
+    content: $morph-icon-frameAlt; 
+  }
+}
+.morph-icon-friends {
+  &:before {
+    content: $morph-icon-friends; 
+  }
+}
+.morph-icon-gasStation {
+  &:before {
+    content: $morph-icon-gasStation; 
+  }
+}
+.morph-icon-genders {
+  &:before {
+    content: $morph-icon-genders; 
+  }
+}
+.morph-icon-greenTruck {
+  &:before {
+    content: $morph-icon-greenTruck; 
+  }
+}
+.morph-icon-grid {
+  &:before {
+    content: $morph-icon-grid; 
+  }
+}
+.morph-icon-hatchback {
+  &:before {
+    content: $morph-icon-hatchback; 
+  }
+}
+.morph-icon-heavyRainy {
+  &:before {
+    content: $morph-icon-heavyRainy; 
+  }
+}
+.morph-icon-helicopter {
+  &:before {
+    content: $morph-icon-helicopter; 
+  }
+}
+.morph-icon-humidity {
+  &:before {
+    content: $morph-icon-humidity; 
+  }
+}
+.morph-icon-IceCreamTruck {
+  &:before {
+    content: $morph-icon-IceCreamTruck; 
+  }
+}
+.morph-icon-imageFolder {
+  &:before {
+    content: $morph-icon-imageFolder; 
+  }
+}
+.morph-icon-incomingCall {
+  &:before {
+    content: $morph-icon-incomingCall; 
+  }
+}
+.morph-icon-increaseInTemperature {
+  &:before {
+    content: $morph-icon-increaseInTemperature; 
+  }
+}
+.morph-icon-intenseSun {
+  &:before {
+    content: $morph-icon-intenseSun; 
+  }
+}
+.morph-icon-intersect {
+  &:before {
+    content: $morph-icon-intersect; 
+  }
+}
+.morph-icon-invitation {
+  &:before {
+    content: $morph-icon-invitation; 
+  }
+}
+.morph-icon-irisScan {
+  &:before {
+    content: $morph-icon-irisScan; 
+  }
+}
+.morph-icon-jumbo {
+  &:before {
+    content: $morph-icon-jumbo; 
+  }
+}
+.morph-icon-key {
+  &:before {
+    content: $morph-icon-key; 
+  }
+}
+.morph-icon-keyAdd {
+  &:before {
+    content: $morph-icon-keyAdd; 
+  }
+}
+.morph-icon-keyReset {
+  &:before {
+    content: $morph-icon-keyReset; 
+  }
+}
+.morph-icon-left {
+  &:before {
+    content: $morph-icon-left; 
+  }
+}
+.morph-icon-list {
+  &:before {
+    content: $morph-icon-list; 
+  }
+}
+.morph-icon-lock {
+  &:before {
+    content: $morph-icon-lock; 
+  }
+}
+.morph-icon-lockDisabled {
+  &:before {
+    content: $morph-icon-lockDisabled; 
+  }
+}
+.morph-icon-lockedFolder {
+  &:before {
+    content: $morph-icon-lockedFolder; 
+  }
+}
+.morph-icon-lovelyBellNotification {
+  &:before {
+    content: $morph-icon-lovelyBellNotification; 
+  }
+}
+.morph-icon-lovelyContact {
+  &:before {
+    content: $morph-icon-lovelyContact; 
+  }
+}
+.morph-icon-mail {
+  &:before {
+    content: $morph-icon-mail; 
+  }
+}
+.morph-icon-mailAlert {
+  &:before {
+    content: $morph-icon-mailAlert; 
+  }
+}
+.morph-icon-mailBox {
+  &:before {
+    content: $morph-icon-mailBox; 
+  }
+}
+.morph-icon-mailHelp {
+  &:before {
+    content: $morph-icon-mailHelp; 
+  }
+}
+.morph-icon-mailHistory {
+  &:before {
+    content: $morph-icon-mailHistory; 
+  }
+}
+.morph-icon-mailInbox {
+  &:before {
+    content: $morph-icon-mailInbox; 
+  }
+}
+.morph-icon-mailNotification {
+  &:before {
+    content: $morph-icon-mailNotification; 
+  }
+}
+.morph-icon-mainFolder {
+  &:before {
+    content: $morph-icon-mainFolder; 
+  }
+}
+.morph-icon-menProfile {
+  &:before {
+    content: $morph-icon-menProfile; 
+  }
+}
+.morph-icon-message {
+  &:before {
+    content: $morph-icon-message; 
+  }
+}
+.morph-icon-messageAlert {
+  &:before {
+    content: $morph-icon-messageAlert; 
+  }
+}
+.morph-icon-messageBox {
+  &:before {
+    content: $morph-icon-messageBox; 
+  }
+}
+.morph-icon-messageBubble {
+  &:before {
+    content: $morph-icon-messageBubble; 
+  }
+}
+.morph-icon-messageBubbleAlt {
+  &:before {
+    content: $morph-icon-messageBubbleAlt; 
+  }
+}
+.morph-icon-messageBubbleColor {
+  &:before {
+    content: $morph-icon-messageBubbleColor; 
+  }
+}
+.morph-icon-messageContent {
+  &:before {
+    content: $morph-icon-messageContent; 
+  }
+}
+.morph-icon-messageHistory {
+  &:before {
+    content: $morph-icon-messageHistory; 
+  }
+}
+.morph-icon-messageThread {
+  &:before {
+    content: $morph-icon-messageThread; 
+  }
+}
+.morph-icon-metro {
+  &:before {
+    content: $morph-icon-metro; 
+  }
+}
+.morph-icon-metroStation {
+  &:before {
+    content: $morph-icon-metroStation; 
+  }
+}
+.morph-icon-microCar {
+  &:before {
+    content: $morph-icon-microCar; 
+  }
+}
+.morph-icon-microphone {
+  &:before {
+    content: $morph-icon-microphone; 
+  }
+}
+.morph-icon-microphoneActivated {
+  &:before {
+    content: $morph-icon-microphoneActivated; 
+  }
+}
+.morph-icon-microphoneConnected {
+  &:before {
+    content: $morph-icon-microphoneConnected; 
+  }
+}
+.morph-icon-microphoneError {
+  &:before {
+    content: $morph-icon-microphoneError; 
+  }
+}
+.morph-icon-microphoneIsRecording {
+  &:before {
+    content: $morph-icon-microphoneIsRecording; 
+  }
+}
+.morph-icon-microphoneMute {
+  &:before {
+    content: $morph-icon-microphoneMute; 
+  }
+}
+.morph-icon-microphoneNoise {
+  &:before {
+    content: $morph-icon-microphoneNoise; 
+  }
+}
+.morph-icon-miniTruck {
+  &:before {
+    content: $morph-icon-miniTruck; 
+  }
+}
+.morph-icon-missFolder {
+  &:before {
+    content: $morph-icon-missFolder; 
+  }
+}
+.morph-icon-monyTransfer {
+  &:before {
+    content: $morph-icon-monyTransfer; 
+  }
+}
+.morph-icon-moon {
+  &:before {
+    content: $morph-icon-moon; 
+  }
+}
+.morph-icon-morphProfile {
+  &:before {
+    content: $morph-icon-morphProfile; 
+  }
+}
+.morph-icon-mostlyCloudy {
+  &:before {
+    content: $morph-icon-mostlyCloudy; 
+  }
+}
+.morph-icon-motionDetection {
+  &:before {
+    content: $morph-icon-motionDetection; 
+  }
+}
+.morph-icon-motionDetectionOff {
+  &:before {
+    content: $morph-icon-motionDetectionOff; 
+  }
+}
+.morph-icon-motorcycle {
+  &:before {
+    content: $morph-icon-motorcycle; 
+  }
+}
+.morph-icon-moveDownFile {
+  &:before {
+    content: $morph-icon-moveDownFile; 
+  }
+}
+.morph-icon-moveDownFolder {
+  &:before {
+    content: $morph-icon-moveDownFolder; 
+  }
+}
+.morph-icon-moveUpFile {
+  &:before {
+    content: $morph-icon-moveUpFile; 
+  }
+}
+.morph-icon-moveUpFolder {
+  &:before {
+    content: $morph-icon-moveUpFolder; 
+  }
+}
+.morph-icon-mute {
+  &:before {
+    content: $morph-icon-mute; 
+  }
+}
+.morph-icon-newMessage {
+  &:before {
+    content: $morph-icon-newMessage; 
+  }
+}
+.morph-icon-newNotification {
+  &:before {
+    content: $morph-icon-newNotification; 
+  }
+}
+.morph-icon-next {
+  &:before {
+    content: $morph-icon-next; 
+  }
+}
+.morph-icon-nightPartlyCloudy {
+  &:before {
+    content: $morph-icon-nightPartlyCloudy; 
+  }
+}
+.morph-icon-noiseDetection {
+  &:before {
+    content: $morph-icon-noiseDetection; 
+  }
+}
+.morph-icon-notification {
+  &:before {
+    content: $morph-icon-notification; 
+  }
+}
+.morph-icon-noVolume {
+  &:before {
+    content: $morph-icon-noVolume; 
+  }
+}
+.morph-icon-numberScan {
+  &:before {
+    content: $morph-icon-numberScan; 
+  }
+}
+.morph-icon-oldBasket {
+  &:before {
+    content: $morph-icon-oldBasket; 
+  }
+}
+.morph-icon-oldMicrophone {
+  &:before {
+    content: $morph-icon-oldMicrophone; 
+  }
+}
+.morph-icon-onePointFiveXPlay {
+  &:before {
+    content: $morph-icon-onePointFiveXPlay; 
+  }
+}
+.morph-icon-outboxMail {
+  &:before {
+    content: $morph-icon-outboxMail; 
+  }
+}
+.morph-icon-outgoingCall {
+  &:before {
+    content: $morph-icon-outgoingCall; 
+  }
+}
+.morph-icon-package {
+  &:before {
+    content: $morph-icon-package; 
+  }
+}
+.morph-icon-packageConfirmed {
+  &:before {
+    content: $morph-icon-packageConfirmed; 
+  }
+}
+.morph-icon-partlyCloudy {
+  &:before {
+    content: $morph-icon-partlyCloudy; 
+  }
+}
+.morph-icon-partlyCloudyAlt {
+  &:before {
+    content: $morph-icon-partlyCloudyAlt; 
+  }
+}
+.morph-icon-passport {
+  &:before {
+    content: $morph-icon-passport; 
+  }
+}
+.morph-icon-password {
+  &:before {
+    content: $morph-icon-password; 
+  }
+}
+.morph-icon-passwordConfirmed {
+  &:before {
+    content: $morph-icon-passwordConfirmed; 
+  }
+}
+.morph-icon-paste {
+  &:before {
+    content: $morph-icon-paste; 
+  }
+}
+.morph-icon-pause {
+  &:before {
+    content: $morph-icon-pause; 
+  }
+}
+.morph-icon-phone {
+  &:before {
+    content: $morph-icon-phone; 
+  }
+}
+.morph-icon-phoneCallHistory {
+  &:before {
+    content: $morph-icon-phoneCallHistory; 
+  }
+}
+.morph-icon-phoneCallPause {
+  &:before {
+    content: $morph-icon-phoneCallPause; 
+  }
+}
+.morph-icon-phoneCallReceived {
+  &:before {
+    content: $morph-icon-phoneCallReceived; 
+  }
+}
+.morph-icon-phoneCallRecord {
+  &:before {
+    content: $morph-icon-phoneCallRecord; 
+  }
+}
+.morph-icon-phoneCallRepeat {
+  &:before {
+    content: $morph-icon-phoneCallRepeat; 
+  }
+}
+.morph-icon-phoneCallVoice {
+  &:before {
+    content: $morph-icon-phoneCallVoice; 
+  }
+}
+.morph-icon-phoneDisabled {
+  &:before {
+    content: $morph-icon-phoneDisabled; 
+  }
+}
+.morph-icon-PhoneGrid {
+  &:before {
+    content: $morph-icon-PhoneGrid; 
+  }
+}
+.morph-icon-phoneIsCalling {
+  &:before {
+    content: $morph-icon-phoneIsCalling; 
+  }
+}
+.morph-icon-pickup {
+  &:before {
+    content: $morph-icon-pickup; 
+  }
+}
+.morph-icon-play {
+  &:before {
+    content: $morph-icon-play; 
+  }
+}
+.morph-icon-playFolder {
+  &:before {
+    content: $morph-icon-playFolder; 
+  }
+}
+.morph-icon-postTruck {
+  &:before {
+    content: $morph-icon-postTruck; 
+  }
+}
+.morph-icon-previous {
+  &:before {
+    content: $morph-icon-previous; 
+  }
+}
+.morph-icon-privateBus {
+  &:before {
+    content: $morph-icon-privateBus; 
+  }
+}
+.morph-icon-privateMessage {
+  &:before {
+    content: $morph-icon-privateMessage; 
+  }
+}
+.morph-icon-profile {
+  &:before {
+    content: $morph-icon-profile; 
+  }
+}
+.morph-icon-protectedFile {
+  &:before {
+    content: $morph-icon-protectedFile; 
+  }
+}
+.morph-icon-protectedFolder {
+  &:before {
+    content: $morph-icon-protectedFolder; 
+  }
+}
+.morph-icon-protectedPhoneCall {
+  &:before {
+    content: $morph-icon-protectedPhoneCall; 
+  }
+}
+.morph-icon-protectedWallet {
+  &:before {
+    content: $morph-icon-protectedWallet; 
+  }
+}
+.morph-icon-qrScanner {
+  &:before {
+    content: $morph-icon-qrScanner; 
+  }
+}
+.morph-icon-rainyFirelight {
+  &:before {
+    content: $morph-icon-rainyFirelight; 
+  }
+}
+.morph-icon-rainy {
+  &:before {
+    content: $morph-icon-rainy; 
+  }
+}
+.morph-icon-receivedMails {
+  &:before {
+    content: $morph-icon-receivedMails; 
+  }
+}
+.morph-icon-removeContact {
+  &:before {
+    content: $morph-icon-removeContact; 
+  }
+}
+.morph-icon-removeCreditCard {
+  &:before {
+    content: $morph-icon-removeCreditCard; 
+  }
+}
+.morph-icon-removeFile {
+  &:before {
+    content: $morph-icon-removeFile; 
+  }
+}
+.morph-icon-removeFolder {
+  &:before {
+    content: $morph-icon-removeFolder; 
+  }
+}
+.morph-icon-removeFrame {
+  &:before {
+    content: $morph-icon-removeFrame; 
+  }
+}
+.morph-icon-removeFrom {
+  &:before {
+    content: $morph-icon-removeFrom; 
+  }
+}
+.morph-icon-removeFromAlt {
+  &:before {
+    content: $morph-icon-removeFromAlt; 
+  }
+}
+.morph-icon-removeFromBag {
+  &:before {
+    content: $morph-icon-removeFromBag; 
+  }
+}
+.morph-icon-removeFromBasket {
+  &:before {
+    content: $morph-icon-removeFromBasket; 
+  }
+}
+.morph-icon-RemoveFromGrid {
+  &:before {
+    content: $morph-icon-RemoveFromGrid; 
+  }
+}
+.morph-icon-removeKey {
+  &:before {
+    content: $morph-icon-removeKey; 
+  }
+}
+.morph-icon-removeKeyAlt {
+  &:before {
+    content: $morph-icon-removeKeyAlt; 
+  }
+}
+.morph-icon-removeMail {
+  &:before {
+    content: $morph-icon-removeMail; 
+  }
+}
+.morph-icon-removeMessage {
+  &:before {
+    content: $morph-icon-removeMessage; 
+  }
+}
+.morph-icon-removeMicrophone {
+  &:before {
+    content: $morph-icon-removeMicrophone; 
+  }
+}
+.morph-icon-removePackage {
+  &:before {
+    content: $morph-icon-removePackage; 
+  }
+}
+.morph-icon-removePhoneCall {
+  &:before {
+    content: $morph-icon-removePhoneCall; 
+  }
+}
+.morph-icon-removePhoneCallAlt {
+  &:before {
+    content: $morph-icon-removePhoneCallAlt; 
+  }
+}
+.morph-icon-removeShield {
+  &:before {
+    content: $morph-icon-removeShield; 
+  }
+}
+.morph-icon-removeShieldAlt {
+  &:before {
+    content: $morph-icon-removeShieldAlt; 
+  }
+}
+.morph-icon-removeStore {
+  &:before {
+    content: $morph-icon-removeStore; 
+  }
+}
+.morph-icon-removeWallet {
+  &:before {
+    content: $morph-icon-removeWallet; 
+  }
+}
+.morph-icon-reorderFile {
+  &:before {
+    content: $morph-icon-reorderFile; 
+  }
+}
+.morph-icon-reorderFolder {
+  &:before {
+    content: $morph-icon-reorderFolder; 
+  }
+}
+.morph-icon-resetBellNotification {
+  &:before {
+    content: $morph-icon-resetBellNotification; 
+  }
+}
+.morph-icon-resetDelete {
+  &:before {
+    content: $morph-icon-resetDelete; 
+  }
+}
+.morph-icon-restoreDelete {
+  &:before {
+    content: $morph-icon-restoreDelete; 
+  }
+}
+.morph-icon-right {
+  &:before {
+    content: $morph-icon-right; 
+  }
+}
+.morph-icon-ringBellNotification {
+  &:before {
+    content: $morph-icon-ringBellNotification; 
+  }
+}
+.morph-icon-roadster {
+  &:before {
+    content: $morph-icon-roadster; 
+  }
+}
+.morph-icon-save {
+  &:before {
+    content: $morph-icon-save; 
+  }
+}
+.morph-icon-scan {
+  &:before {
+    content: $morph-icon-scan; 
+  }
+}
+.morph-icon-scooter {
+  &:before {
+    content: $morph-icon-scooter; 
+  }
+}
+.morph-icon-searchByScan {
+  &:before {
+    content: $morph-icon-searchByScan; 
+  }
+}
+.morph-icon-searchContact {
+  &:before {
+    content: $morph-icon-searchContact; 
+  }
+}
+.morph-icon-searchFile {
+  &:before {
+    content: $morph-icon-searchFile; 
+  }
+}
+.morph-icon-searchFolder {
+  &:before {
+    content: $morph-icon-searchFolder; 
+  }
+}
+.morph-icon-searchGrid {
+  &:before {
+    content: $morph-icon-searchGrid; 
+  }
+}
+.morph-icon-searchMails {
+  &:before {
+    content: $morph-icon-searchMails; 
+  }
+}
+.morph-icon-seenMessage {
+  &:before {
+    content: $morph-icon-seenMessage; 
+  }
+}
+.morph-icon-selectiveColor {
+  &:before {
+    content: $morph-icon-selectiveColor; 
+  }
+}
+.morph-icon-sendMail {
+  &:before {
+    content: $morph-icon-sendMail; 
+  }
+}
+.morph-icon-sentMails {
+  &:before {
+    content: $morph-icon-sentMails; 
+  }
+}
+.morph-icon-shareFile {
+  &:before {
+    content: $morph-icon-shareFile; 
+  }
+}
+.morph-icon-shareFolder {
+  &:before {
+    content: $morph-icon-shareFolder; 
+  }
+}
+.morph-icon-shield {
+  &:before {
+    content: $morph-icon-shield; 
+  }
+}
+.morph-icon-shieldAlt {
+  &:before {
+    content: $morph-icon-shieldAlt; 
+  }
+}
+.morph-icon-shieldBroken {
+  &:before {
+    content: $morph-icon-shieldBroken; 
+  }
+}
+.morph-icon-shieldReset {
+  &:before {
+    content: $morph-icon-shieldReset; 
+  }
+}
+.morph-icon-shieldSecurity {
+  &:before {
+    content: $morph-icon-shieldSecurity; 
+  }
+}
+.morph-icon-shieldUpdate {
+  &:before {
+    content: $morph-icon-shieldUpdate; 
+  }
+}
+.morph-icon-shieldVerified {
+  &:before {
+    content: $morph-icon-shieldVerified; 
+  }
+}
+.morph-icon-ship {
+  &:before {
+    content: $morph-icon-ship; 
+  }
+}
+.morph-icon-silentNotification {
+  &:before {
+    content: $morph-icon-silentNotification; 
+  }
+}
+.morph-icon-skipNext {
+  &:before {
+    content: $morph-icon-skipNext; 
+  }
+}
+.morph-icon-skipPrevious {
+  &:before {
+    content: $morph-icon-skipPrevious; 
+  }
+}
+.morph-icon-smartPhone {
+  &:before {
+    content: $morph-icon-smartPhone; 
+  }
+}
+.morph-icon-smileDetection {
+  &:before {
+    content: $morph-icon-smileDetection; 
+  }
+}
+.morph-icon-snow {
+  &:before {
+    content: $morph-icon-snow; 
+  }
+}
+.morph-icon-snowflake {
+  &:before {
+    content: $morph-icon-snowflake; 
+  }
+}
+.morph-icon-snowflakeAlt {
+  &:before {
+    content: $morph-icon-snowflakeAlt; 
+  }
+}
+.morph-icon-soundsFolder {
+  &:before {
+    content: $morph-icon-soundsFolder; 
+  }
+}
+.morph-icon-squareProfile {
+  &:before {
+    content: $morph-icon-squareProfile; 
+  }
+}
+.morph-icon-starredContact {
+  &:before {
+    content: $morph-icon-starredContact; 
+  }
+}
+.morph-icon-starredMails {
+  &:before {
+    content: $morph-icon-starredMails; 
+  }
+}
+.morph-icon-starredMessage {
+  &:before {
+    content: $morph-icon-starredMessage; 
+  }
+}
+.morph-icon-starredPhoneCall {
+  &:before {
+    content: $morph-icon-starredPhoneCall; 
+  }
+}
+.morph-icon-starredWallet {
+  &:before {
+    content: $morph-icon-starredWallet; 
+  }
+}
+.morph-icon-store {
+  &:before {
+    content: $morph-icon-store; 
+  }
+}
+.morph-icon-StoreBus {
+  &:before {
+    content: $morph-icon-StoreBus; 
+  }
+}
+.morph-icon-storeHours {
+  &:before {
+    content: $morph-icon-storeHours; 
+  }
+}
+.morph-icon-subtract {
+  &:before {
+    content: $morph-icon-subtract; 
+  }
+}
+.morph-icon-subtractContact {
+  &:before {
+    content: $morph-icon-subtractContact; 
+  }
+}
+.morph-icon-subtractFile {
+  &:before {
+    content: $morph-icon-subtractFile; 
+  }
+}
+.morph-icon-sun {
+  &:before {
+    content: $morph-icon-sun; 
+  }
+}
+.morph-icon-sunrise {
+  &:before {
+    content: $morph-icon-sunrise; 
+  }
+}
+.morph-icon-sunset {
+  &:before {
+    content: $morph-icon-sunset; 
+  }
+}
+.morph-icon-syncContact {
+  &:before {
+    content: $morph-icon-syncContact; 
+  }
+}
+.morph-icon-tabletGrid {
+  &:before {
+    content: $morph-icon-tabletGrid; 
+  }
+}
+.morph-icon-tank {
+  &:before {
+    content: $morph-icon-tank; 
+  }
+}
+.morph-icon-telecabin {
+  &:before {
+    content: $morph-icon-telecabin; 
+  }
+}
+.morph-icon-temperatureReduction {
+  &:before {
+    content: $morph-icon-temperatureReduction; 
+  }
+}
+.morph-icon-ticket {
+  &:before {
+    content: $morph-icon-ticket; 
+  }
+}
+.morph-icon-ticketDownload {
+  &:before {
+    content: $morph-icon-ticketDownload; 
+  }
+}
+.morph-icon-ticketRefund {
+  &:before {
+    content: $morph-icon-ticketRefund; 
+  }
+}
+.morph-icon-ticketShare {
+  &:before {
+    content: $morph-icon-ticketShare; 
+  }
+}
+.morph-icon-top {
+  &:before {
+    content: $morph-icon-top; 
+  }
+}
+.morph-icon-toward {
+  &:before {
+    content: $morph-icon-toward; 
+  }
+}
+.morph-icon-trash {
+  &:before {
+    content: $morph-icon-trash; 
+  }
+}
+.morph-icon-truck {
+  &:before {
+    content: $morph-icon-truck; 
+  }
+}
+.morph-icon-twoDbarcode {
+  &:before {
+    content: $morph-icon-twoDbarcode; 
+  }
+}
+.morph-icon-twoXplay {
+  &:before {
+    content: $morph-icon-twoXplay; 
+  }
+}
+.morph-icon-uav {
+  &:before {
+    content: $morph-icon-uav; 
+  }
+}
+.morph-icon-unarchive {
+  &:before {
+    content: $morph-icon-unarchive; 
+  }
+}
+.morph-icon-union {
+  &:before {
+    content: $morph-icon-union; 
+  }
+}
+.morph-icon-unionAlt {
+  &:before {
+    content: $morph-icon-unionAlt; 
+  }
+}
+.morph-icon-unionHorizAlt {
+  &:before {
+    content: $morph-icon-unionHorizAlt; 
+  }
+}
+.morph-icon-unlock {
+  &:before {
+    content: $morph-icon-unlock; 
+  }
+}
+.morph-icon-up {
+  &:before {
+    content: $morph-icon-up; 
+  }
+}
+.morph-icon-upload {
+  &:before {
+    content: $morph-icon-upload; 
+  }
+}
+.morph-icon-uploadAlt {
+  &:before {
+    content: $morph-icon-uploadAlt; 
+  }
+}
+.morph-icon-uploadFile {
+  &:before {
+    content: $morph-icon-uploadFile; 
+  }
+}
+.morph-icon-upside {
+  &:before {
+    content: $morph-icon-upside; 
+  }
+}
+.morph-icon-upwards {
+  &:before {
+    content: $morph-icon-upwards; 
+  }
+}
+.morph-icon-verifiedContact {
+  &:before {
+    content: $morph-icon-verifiedContact; 
+  }
+}
+.morph-icon-verifiedContactAlt {
+  &:before {
+    content: $morph-icon-verifiedContactAlt; 
+  }
+}
+.morph-icon-verifiedMail {
+  &:before {
+    content: $morph-icon-verifiedMail; 
+  }
+}
+.morph-icon-verifiedStore {
+  &:before {
+    content: $morph-icon-verifiedStore; 
+  }
+}
+.morph-icon-verifiedWallet {
+  &:before {
+    content: $morph-icon-verifiedWallet; 
+  }
+}
+.morph-icon-vespa {
+  &:before {
+    content: $morph-icon-vespa; 
+  }
+}
+.morph-icon-voiceMessage {
+  &:before {
+    content: $morph-icon-voiceMessage; 
+  }
+}
+.morph-icon-voiceScan {
+  &:before {
+    content: $morph-icon-voiceScan; 
+  }
+}
+.morph-icon-volume {
+  &:before {
+    content: $morph-icon-volume; 
+  }
+}
+.morph-icon-volumeDecreased {
+  &:before {
+    content: $morph-icon-volumeDecreased; 
+  }
+}
+.morph-icon-volumeDown {
+  &:before {
+    content: $morph-icon-volumeDown; 
+  }
+}
+.morph-icon-volumeIncreased {
+  &:before {
+    content: $morph-icon-volumeIncreased; 
+  }
+}
+.morph-icon-volumeProblem {
+  &:before {
+    content: $morph-icon-volumeProblem; 
+  }
+}
+.morph-icon-volumeUp {
+  &:before {
+    content: $morph-icon-volumeUp; 
+  }
+}
+.morph-icon-wallet {
+  &:before {
+    content: $morph-icon-wallet; 
+  }
+}
+.morph-icon-walletAlert {
+  &:before {
+    content: $morph-icon-walletAlert; 
+  }
+}
+.morph-icon-walletCashOut {
+  &:before {
+    content: $morph-icon-walletCashOut; 
+  }
+}
+.morph-icon-walletExpenses {
+  &:before {
+    content: $morph-icon-walletExpenses; 
+  }
+}
+.morph-icon-walletHelp {
+  &:before {
+    content: $morph-icon-walletHelp; 
+  }
+}
+.morph-icon-walletHistory {
+  &:before {
+    content: $morph-icon-walletHistory; 
+  }
+}
+.morph-icon-walletIncome {
+  &:before {
+    content: $morph-icon-walletIncome; 
+  }
+}
+.morph-icon-walletPassword {
+  &:before {
+    content: $morph-icon-walletPassword; 
+  }
+}
+.morph-icon-walletRefresh {
+  &:before {
+    content: $morph-icon-walletRefresh; 
+  }
+}
+.morph-icon-walletSync {
+  &:before {
+    content: $morph-icon-walletSync; 
+  }
+}
+.morph-icon-walletTransaction {
+  &:before {
+    content: $morph-icon-walletTransaction; 
+  }
+}
+.morph-icon-warm {
+  &:before {
+    content: $morph-icon-warm; 
+  }
+}
+.morph-icon-warplane {
+  &:before {
+    content: $morph-icon-warplane; 
+  }
+}
+.morph-icon-wavy {
+  &:before {
+    content: $morph-icon-wavy; 
+  }
+}
+.morph-icon-webGrid {
+  &:before {
+    content: $morph-icon-webGrid; 
+  }
+}
+.morph-icon-wet {
+  &:before {
+    content: $morph-icon-wet; 
+  }
+}
+.morph-icon-windCloud {
+  &:before {
+    content: $morph-icon-windCloud; 
+  }
+}
+.morph-icon-windCloudy {
+  &:before {
+    content: $morph-icon-windCloudy; 
+  }
+}
+.morph-icon-wind {
+  &:before {
+    content: $morph-icon-wind; 
+  }
+}
+.morph-icon-womenProfile {
+  &:before {
+    content: $morph-icon-womenProfile; 
+  }
+}
+.morph-icon-wrongPassword {
+  &:before {
+    content: $morph-icon-wrongPassword; 
+  }
+}
+.morph-icon-zanbil {
+  &:before {
+    content: $morph-icon-zanbil; 
+  }
+}
+

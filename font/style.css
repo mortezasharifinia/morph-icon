@@ -1,0 +1,1197 @@
+@font-face {
+  font-family: 'Morph-Icon';
+  src:  url('fonts/Morph-Icon.eot?53cfmp');
+  src:  url('fonts/Morph-Icon.eot?53cfmp#iefix') format('embedded-opentype'),
+    url('fonts/Morph-Icon.ttf?53cfmp') format('truetype'),
+    url('fonts/Morph-Icon.woff?53cfmp') format('woff'),
+    url('fonts/Morph-Icon.svg?53cfmp#Morph-Icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="morph-icon-"], [class*=" morph-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Morph-Icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.morph-icon-aboutShield:before {
+  content: "\e900";
+}
+.morph-icon-addContact:before {
+  content: "\e901";
+}
+.morph-icon-addCreditCard:before {
+  content: "\e902";
+}
+.morph-icon-addFile:before {
+  content: "\e903";
+}
+.morph-icon-addFolder:before {
+  content: "\e904";
+}
+.morph-icon-addFrame:before {
+  content: "\e905";
+}
+.morph-icon-addFrameAlt:before {
+  content: "\e906";
+}
+.morph-icon-addFrameAlt2:before {
+  content: "\e907";
+}
+.morph-icon-addMail:before {
+  content: "\e908";
+}
+.morph-icon-addMessage:before {
+  content: "\e909";
+}
+.morph-icon-addMicrophone:before {
+  content: "\e90a";
+}
+.morph-icon-addPackage:before {
+  content: "\e90b";
+}
+.morph-icon-addPassword:before {
+  content: "\e90c";
+}
+.morph-icon-addPhoneCall:before {
+  content: "\e90d";
+}
+.morph-icon-addShield:before {
+  content: "\e90e";
+}
+.morph-icon-addStore:before {
+  content: "\e90f";
+}
+.morph-icon-addTo:before {
+  content: "\e910";
+}
+.morph-icon-addToBag:before {
+  content: "\e911";
+}
+.morph-icon-addToBasket:before {
+  content: "\e912";
+}
+.morph-icon-addToGrid:before {
+  content: "\e913";
+}
+.morph-icon-addToWallet:before {
+  content: "\e914";
+}
+.morph-icon-airflow:before {
+  content: "\e915";
+}
+.morph-icon-airplane:before {
+  content: "\e916";
+}
+.morph-icon-airPollution:before {
+  content: "\e917";
+}
+.morph-icon-allowedCargo:before {
+  content: "\e918";
+}
+.morph-icon-ambulance:before {
+  content: "\e919";
+}
+.morph-icon-archive:before {
+  content: "\e91a";
+}
+.morph-icon-aspecratioGrid:before {
+  content: "\e91b";
+}
+.morph-icon-attachFile:before {
+  content: "\e91c";
+}
+.morph-icon-attachFolder:before {
+  content: "\e91d";
+}
+.morph-icon-autoDelete:before {
+  content: "\e91e";
+}
+.morph-icon-babyCar:before {
+  content: "\e91f";
+}
+.morph-icon-back:before {
+  content: "\e920";
+}
+.morph-icon-backward:before {
+  content: "\e921";
+}
+.morph-icon-backward10seconds:before {
+  content: "\e922";
+}
+.morph-icon-backward15seconds:before {
+  content: "\e923";
+}
+.morph-icon-bag:before {
+  content: "\e924";
+}
+.morph-icon-bagAlt:before {
+  content: "\e925";
+}
+.morph-icon-bagConfirmed:before {
+  content: "\e926";
+}
+.morph-icon-basket:before {
+  content: "\e927";
+}
+.morph-icon-basketAlt:before {
+  content: "\e928";
+}
+.morph-icon-basketConfirmed:before {
+  content: "\e929";
+}
+.morph-icon-basketError:before {
+  content: "\e92a";
+}
+.morph-icon-basketHelp:before {
+  content: "\e92b";
+}
+.morph-icon-bellNotificationHistory:before {
+  content: "\e92c";
+}
+.morph-icon-bicycle:before {
+  content: "\e92d";
+}
+.morph-icon-birthCertificate:before {
+  content: "\e92e";
+}
+.morph-icon-blockedMails:before {
+  content: "\e92f";
+}
+.morph-icon-blockedMessage:before {
+  content: "\e930";
+}
+.morph-icon-blockedPhoneCall:before {
+  content: "\e931";
+}
+.morph-icon-blockedWallet:before {
+  content: "\e932";
+}
+.morph-icon-bookmarkedMails:before {
+  content: "\e933";
+}
+.morph-icon-borderAlign:before {
+  content: "\e934";
+}
+.morph-icon-bottom:before {
+  content: "\e935";
+}
+.morph-icon-bus:before {
+  content: "\e936";
+}
+.morph-icon-BusAlt:before {
+  content: "\e937";
+}
+.morph-icon-busAlt1:before {
+  content: "\e938";
+}
+.morph-icon-busStation:before {
+  content: "\e939";
+}
+.morph-icon-CabinClass:before {
+  content: "\e93a";
+}
+.morph-icon-camion:before {
+  content: "\e93b";
+}
+.morph-icon-car:before {
+  content: "\e93c";
+}
+.morph-icon-carAlt:before {
+  content: "\e93d";
+}
+.morph-icon-carriage:before {
+  content: "\e93e";
+}
+.morph-icon-carryingPackages:before {
+  content: "\e93f";
+}
+.morph-icon-cementMixer:before {
+  content: "\e940";
+}
+.morph-icon-centerAlign:before {
+  content: "\e941";
+}
+.morph-icon-chargingStation:before {
+  content: "\e942";
+}
+.morph-icon-circleProfile:before {
+  content: "\e943";
+}
+.morph-icon-cloudDust:before {
+  content: "\e944";
+}
+.morph-icon-cloud:before {
+  content: "\e945";
+}
+.morph-icon-cloudFolder:before {
+  content: "\e946";
+}
+.morph-icon-collageFrame:before {
+  content: "\e947";
+}
+.morph-icon-colorFilter:before {
+  content: "\e948";
+}
+.morph-icon-colorPicker:before {
+  content: "\e949";
+}
+.morph-icon-colorPickerEmpty:before {
+  content: "\e94a";
+}
+.morph-icon-combineItem:before {
+  content: "\e94b";
+}
+.morph-icon-copy:before {
+  content: "\e94c";
+}
+.morph-icon-copyItem:before {
+  content: "\e94d";
+}
+.morph-icon-creditCard:before {
+  content: "\e94e";
+}
+.morph-icon-creditCardHistory:before {
+  content: "\e94f";
+}
+.morph-icon-creditCards:before {
+  content: "\e950";
+}
+.morph-icon-crop:before {
+  content: "\e951";
+}
+.morph-icon-cropRotateACW:before {
+  content: "\e952";
+}
+.morph-icon-cropRotateCW:before {
+  content: "\e953";
+}
+.morph-icon-damagedFile:before {
+  content: "\e954";
+}
+.morph-icon-damagedFolder:before {
+  content: "\e955";
+}
+.morph-icon-delete:before {
+  content: "\e956";
+}
+.morph-icon-deliveredMessage:before {
+  content: "\e957";
+}
+.morph-icon-disablePassword:before {
+  content: "\e958";
+}
+.morph-icon-down:before {
+  content: "\e959";
+}
+.morph-icon-download:before {
+  content: "\e95a";
+}
+.morph-icon-downloadAlt:before {
+  content: "\e95b";
+}
+.morph-icon-downloadFile:before {
+  content: "\e95c";
+}
+.morph-icon-downside:before {
+  content: "\e95d";
+}
+.morph-icon-downwards:before {
+  content: "\e95e";
+}
+.morph-icon-edit:before {
+  content: "\e95f";
+}
+.morph-icon-editContact:before {
+  content: "\e960";
+}
+.morph-icon-editMail:before {
+  content: "\e961";
+}
+.morph-icon-editMessage:before {
+  content: "\e962";
+}
+.morph-icon-electricCar:before {
+  content: "\e963";
+}
+.morph-icon-electricScooter:before {
+  content: "\e964";
+}
+.morph-icon-exclude:before {
+  content: "\e965";
+}
+.morph-icon-excludeAlt:before {
+  content: "\e966";
+}
+.morph-icon-faceID:before {
+  content: "\e967";
+}
+.morph-icon-failedCall:before {
+  content: "\e968";
+}
+.morph-icon-faNumberScan:before {
+  content: "\e969";
+}
+.morph-icon-fastForward:before {
+  content: "\e96a";
+}
+.morph-icon-fastRewind:before {
+  content: "\e96b";
+}
+.morph-icon-favoriteMails:before {
+  content: "\e96c";
+}
+.morph-icon-favoriteMessage:before {
+  content: "\e96d";
+}
+.morph-icon-favoriteWallet:before {
+  content: "\e96e";
+}
+.morph-icon-file:before {
+  content: "\e96f";
+}
+.morph-icon-fileAlert:before {
+  content: "\e970";
+}
+.morph-icon-fileConfirmed:before {
+  content: "\e971";
+}
+.morph-icon-fileEdit:before {
+  content: "\e972";
+}
+.morph-icon-fingerPrint:before {
+  content: "\e973";
+}
+.morph-icon-fingerPrintDisabled:before {
+  content: "\e974";
+}
+.morph-icon-fingerPrintScan:before {
+  content: "\e975";
+}
+.morph-icon-firelight:before {
+  content: "\e976";
+}
+.morph-icon-flipHorizontal:before {
+  content: "\e977";
+}
+.morph-icon-flipVertical:before {
+  content: "\e978";
+}
+.morph-icon-flyDestination:before {
+  content: "\e979";
+}
+.morph-icon-flyOrigin:before {
+  content: "\e97a";
+}
+.morph-icon-fog:before {
+  content: "\e97b";
+}
+.morph-icon-folder:before {
+  content: "\e97c";
+}
+.morph-icon-folderConfirmed:before {
+  content: "\e97d";
+}
+.morph-icon-folderEdit:before {
+  content: "\e97e";
+}
+.morph-icon-forward:before {
+  content: "\e97f";
+}
+.morph-icon-forward10seconds:before {
+  content: "\e980";
+}
+.morph-icon-forward15seconds:before {
+  content: "\e981";
+}
+.morph-icon-frame:before {
+  content: "\e982";
+}
+.morph-icon-frameAlt:before {
+  content: "\e983";
+}
+.morph-icon-friends:before {
+  content: "\e984";
+}
+.morph-icon-gasStation:before {
+  content: "\e985";
+}
+.morph-icon-genders:before {
+  content: "\e986";
+}
+.morph-icon-greenTruck:before {
+  content: "\e987";
+}
+.morph-icon-grid:before {
+  content: "\e988";
+}
+.morph-icon-hatchback:before {
+  content: "\e989";
+}
+.morph-icon-heavyRainy:before {
+  content: "\e98a";
+}
+.morph-icon-helicopter:before {
+  content: "\e98b";
+}
+.morph-icon-humidity:before {
+  content: "\e98c";
+}
+.morph-icon-IceCreamTruck:before {
+  content: "\e98d";
+}
+.morph-icon-imageFolder:before {
+  content: "\e98e";
+}
+.morph-icon-incomingCall:before {
+  content: "\e98f";
+}
+.morph-icon-increaseInTemperature:before {
+  content: "\e990";
+}
+.morph-icon-intenseSun:before {
+  content: "\e991";
+}
+.morph-icon-intersect:before {
+  content: "\e992";
+}
+.morph-icon-invitation:before {
+  content: "\e993";
+}
+.morph-icon-irisScan:before {
+  content: "\e994";
+}
+.morph-icon-jumbo:before {
+  content: "\e995";
+}
+.morph-icon-key:before {
+  content: "\e996";
+}
+.morph-icon-keyAdd:before {
+  content: "\e997";
+}
+.morph-icon-keyReset:before {
+  content: "\e998";
+}
+.morph-icon-left:before {
+  content: "\e999";
+}
+.morph-icon-list:before {
+  content: "\e99a";
+}
+.morph-icon-lock:before {
+  content: "\e99b";
+}
+.morph-icon-lockDisabled:before {
+  content: "\e99c";
+}
+.morph-icon-lockedFolder:before {
+  content: "\e99d";
+}
+.morph-icon-lovelyBellNotification:before {
+  content: "\e99e";
+}
+.morph-icon-lovelyContact:before {
+  content: "\e99f";
+}
+.morph-icon-mail:before {
+  content: "\e9a0";
+}
+.morph-icon-mailAlert:before {
+  content: "\e9a1";
+}
+.morph-icon-mailBox:before {
+  content: "\e9a2";
+}
+.morph-icon-mailHelp:before {
+  content: "\e9a3";
+}
+.morph-icon-mailHistory:before {
+  content: "\e9a4";
+}
+.morph-icon-mailInbox:before {
+  content: "\e9a5";
+}
+.morph-icon-mailNotification:before {
+  content: "\e9a6";
+}
+.morph-icon-mainFolder:before {
+  content: "\e9a7";
+}
+.morph-icon-menProfile:before {
+  content: "\e9a8";
+}
+.morph-icon-message:before {
+  content: "\e9a9";
+}
+.morph-icon-messageAlert:before {
+  content: "\e9aa";
+}
+.morph-icon-messageBox:before {
+  content: "\e9ab";
+}
+.morph-icon-messageBubble:before {
+  content: "\e9ac";
+}
+.morph-icon-messageBubbleAlt:before {
+  content: "\e9ad";
+}
+.morph-icon-messageBubbleColor:before {
+  content: "\e9ae";
+}
+.morph-icon-messageContent:before {
+  content: "\e9af";
+}
+.morph-icon-messageHistory:before {
+  content: "\e9b0";
+}
+.morph-icon-messageThread:before {
+  content: "\e9b1";
+}
+.morph-icon-metro:before {
+  content: "\e9b2";
+}
+.morph-icon-metroStation:before {
+  content: "\e9b3";
+}
+.morph-icon-microCar:before {
+  content: "\e9b4";
+}
+.morph-icon-microphone:before {
+  content: "\e9b5";
+}
+.morph-icon-microphoneActivated:before {
+  content: "\e9b6";
+}
+.morph-icon-microphoneConnected:before {
+  content: "\e9b7";
+}
+.morph-icon-microphoneError:before {
+  content: "\e9b8";
+}
+.morph-icon-microphoneIsRecording:before {
+  content: "\e9b9";
+}
+.morph-icon-microphoneMute:before {
+  content: "\e9ba";
+}
+.morph-icon-microphoneNoise:before {
+  content: "\e9bb";
+}
+.morph-icon-miniTruck:before {
+  content: "\e9bc";
+}
+.morph-icon-missFolder:before {
+  content: "\e9bd";
+}
+.morph-icon-monyTransfer:before {
+  content: "\e9be";
+}
+.morph-icon-moon:before {
+  content: "\e9bf";
+}
+.morph-icon-morphProfile:before {
+  content: "\e9c0";
+}
+.morph-icon-mostlyCloudy:before {
+  content: "\e9c1";
+}
+.morph-icon-motionDetection:before {
+  content: "\e9c2";
+}
+.morph-icon-motionDetectionOff:before {
+  content: "\e9c3";
+}
+.morph-icon-motorcycle:before {
+  content: "\e9c4";
+}
+.morph-icon-moveDownFile:before {
+  content: "\e9c5";
+}
+.morph-icon-moveDownFolder:before {
+  content: "\e9c6";
+}
+.morph-icon-moveUpFile:before {
+  content: "\e9c7";
+}
+.morph-icon-moveUpFolder:before {
+  content: "\e9c8";
+}
+.morph-icon-mute:before {
+  content: "\e9c9";
+}
+.morph-icon-newMessage:before {
+  content: "\e9ca";
+}
+.morph-icon-newNotification:before {
+  content: "\e9cb";
+}
+.morph-icon-next:before {
+  content: "\e9cc";
+}
+.morph-icon-nightPartlyCloudy:before {
+  content: "\e9cd";
+}
+.morph-icon-noiseDetection:before {
+  content: "\e9ce";
+}
+.morph-icon-notification:before {
+  content: "\e9cf";
+}
+.morph-icon-noVolume:before {
+  content: "\e9d0";
+}
+.morph-icon-numberScan:before {
+  content: "\e9d1";
+}
+.morph-icon-oldBasket:before {
+  content: "\e9d2";
+}
+.morph-icon-oldMicrophone:before {
+  content: "\e9d3";
+}
+.morph-icon-onePointFiveXPlay:before {
+  content: "\e9d4";
+}
+.morph-icon-outboxMail:before {
+  content: "\e9d5";
+}
+.morph-icon-outgoingCall:before {
+  content: "\e9d6";
+}
+.morph-icon-package:before {
+  content: "\e9d7";
+}
+.morph-icon-packageConfirmed:before {
+  content: "\e9d8";
+}
+.morph-icon-partlyCloudy:before {
+  content: "\e9d9";
+}
+.morph-icon-partlyCloudyAlt:before {
+  content: "\e9da";
+}
+.morph-icon-passport:before {
+  content: "\e9db";
+}
+.morph-icon-password:before {
+  content: "\e9dc";
+}
+.morph-icon-passwordConfirmed:before {
+  content: "\e9dd";
+}
+.morph-icon-paste:before {
+  content: "\e9de";
+}
+.morph-icon-pause:before {
+  content: "\e9df";
+}
+.morph-icon-phone:before {
+  content: "\e9e0";
+}
+.morph-icon-phoneCallHistory:before {
+  content: "\e9e1";
+}
+.morph-icon-phoneCallPause:before {
+  content: "\e9e2";
+}
+.morph-icon-phoneCallReceived:before {
+  content: "\e9e3";
+}
+.morph-icon-phoneCallRecord:before {
+  content: "\e9e4";
+}
+.morph-icon-phoneCallRepeat:before {
+  content: "\e9e5";
+}
+.morph-icon-phoneCallVoice:before {
+  content: "\e9e6";
+}
+.morph-icon-phoneDisabled:before {
+  content: "\e9e7";
+}
+.morph-icon-PhoneGrid:before {
+  content: "\e9e8";
+}
+.morph-icon-phoneIsCalling:before {
+  content: "\e9e9";
+}
+.morph-icon-pickup:before {
+  content: "\e9ea";
+}
+.morph-icon-play:before {
+  content: "\e9eb";
+}
+.morph-icon-playFolder:before {
+  content: "\e9ec";
+}
+.morph-icon-postTruck:before {
+  content: "\e9ed";
+}
+.morph-icon-previous:before {
+  content: "\e9ee";
+}
+.morph-icon-privateBus:before {
+  content: "\e9ef";
+}
+.morph-icon-privateMessage:before {
+  content: "\e9f0";
+}
+.morph-icon-profile:before {
+  content: "\e9f1";
+}
+.morph-icon-protectedFile:before {
+  content: "\e9f2";
+}
+.morph-icon-protectedFolder:before {
+  content: "\e9f3";
+}
+.morph-icon-protectedPhoneCall:before {
+  content: "\e9f4";
+}
+.morph-icon-protectedWallet:before {
+  content: "\e9f5";
+}
+.morph-icon-qrScanner:before {
+  content: "\e9f6";
+}
+.morph-icon-rainyFirelight:before {
+  content: "\e9f7";
+}
+.morph-icon-rainy:before {
+  content: "\e9f8";
+}
+.morph-icon-receivedMails:before {
+  content: "\e9f9";
+}
+.morph-icon-removeContact:before {
+  content: "\e9fa";
+}
+.morph-icon-removeCreditCard:before {
+  content: "\e9fb";
+}
+.morph-icon-removeFile:before {
+  content: "\e9fc";
+}
+.morph-icon-removeFolder:before {
+  content: "\e9fd";
+}
+.morph-icon-removeFrame:before {
+  content: "\e9fe";
+}
+.morph-icon-removeFrom:before {
+  content: "\e9ff";
+}
+.morph-icon-removeFromAlt:before {
+  content: "\ea00";
+}
+.morph-icon-removeFromBag:before {
+  content: "\ea01";
+}
+.morph-icon-removeFromBasket:before {
+  content: "\ea02";
+}
+.morph-icon-RemoveFromGrid:before {
+  content: "\ea03";
+}
+.morph-icon-removeKey:before {
+  content: "\ea04";
+}
+.morph-icon-removeKeyAlt:before {
+  content: "\ea05";
+}
+.morph-icon-removeMail:before {
+  content: "\ea06";
+}
+.morph-icon-removeMessage:before {
+  content: "\ea07";
+}
+.morph-icon-removeMicrophone:before {
+  content: "\ea08";
+}
+.morph-icon-removePackage:before {
+  content: "\ea09";
+}
+.morph-icon-removePhoneCall:before {
+  content: "\ea0a";
+}
+.morph-icon-removePhoneCallAlt:before {
+  content: "\ea0b";
+}
+.morph-icon-removeShield:before {
+  content: "\ea0c";
+}
+.morph-icon-removeShieldAlt:before {
+  content: "\ea0d";
+}
+.morph-icon-removeStore:before {
+  content: "\ea0e";
+}
+.morph-icon-removeWallet:before {
+  content: "\ea0f";
+}
+.morph-icon-reorderFile:before {
+  content: "\ea10";
+}
+.morph-icon-reorderFolder:before {
+  content: "\ea11";
+}
+.morph-icon-resetBellNotification:before {
+  content: "\ea12";
+}
+.morph-icon-resetDelete:before {
+  content: "\ea13";
+}
+.morph-icon-restoreDelete:before {
+  content: "\ea14";
+}
+.morph-icon-right:before {
+  content: "\ea15";
+}
+.morph-icon-ringBellNotification:before {
+  content: "\ea16";
+}
+.morph-icon-roadster:before {
+  content: "\ea17";
+}
+.morph-icon-save:before {
+  content: "\ea18";
+}
+.morph-icon-scan:before {
+  content: "\ea19";
+}
+.morph-icon-scooter:before {
+  content: "\ea1a";
+}
+.morph-icon-searchByScan:before {
+  content: "\ea1b";
+}
+.morph-icon-searchContact:before {
+  content: "\ea1c";
+}
+.morph-icon-searchFile:before {
+  content: "\ea1d";
+}
+.morph-icon-searchFolder:before {
+  content: "\ea1e";
+}
+.morph-icon-searchGrid:before {
+  content: "\ea1f";
+}
+.morph-icon-searchMails:before {
+  content: "\ea20";
+}
+.morph-icon-seenMessage:before {
+  content: "\ea21";
+}
+.morph-icon-selectiveColor:before {
+  content: "\ea22";
+}
+.morph-icon-sendMail:before {
+  content: "\ea23";
+}
+.morph-icon-sentMails:before {
+  content: "\ea24";
+}
+.morph-icon-shareFile:before {
+  content: "\ea25";
+}
+.morph-icon-shareFolder:before {
+  content: "\ea26";
+}
+.morph-icon-shield:before {
+  content: "\ea27";
+}
+.morph-icon-shieldAlt:before {
+  content: "\ea28";
+}
+.morph-icon-shieldBroken:before {
+  content: "\ea29";
+}
+.morph-icon-shieldReset:before {
+  content: "\ea2a";
+}
+.morph-icon-shieldSecurity:before {
+  content: "\ea2b";
+}
+.morph-icon-shieldUpdate:before {
+  content: "\ea2c";
+}
+.morph-icon-shieldVerified:before {
+  content: "\ea2d";
+}
+.morph-icon-ship:before {
+  content: "\ea2e";
+}
+.morph-icon-silentNotification:before {
+  content: "\ea2f";
+}
+.morph-icon-skipNext:before {
+  content: "\ea30";
+}
+.morph-icon-skipPrevious:before {
+  content: "\ea31";
+}
+.morph-icon-smartPhone:before {
+  content: "\ea32";
+}
+.morph-icon-smileDetection:before {
+  content: "\ea33";
+}
+.morph-icon-snow:before {
+  content: "\ea34";
+}
+.morph-icon-snowflake:before {
+  content: "\ea35";
+}
+.morph-icon-snowflakeAlt:before {
+  content: "\ea36";
+}
+.morph-icon-soundsFolder:before {
+  content: "\ea37";
+}
+.morph-icon-squareProfile:before {
+  content: "\ea38";
+}
+.morph-icon-starredContact:before {
+  content: "\ea39";
+}
+.morph-icon-starredMails:before {
+  content: "\ea3a";
+}
+.morph-icon-starredMessage:before {
+  content: "\ea3b";
+}
+.morph-icon-starredPhoneCall:before {
+  content: "\ea3c";
+}
+.morph-icon-starredWallet:before {
+  content: "\ea3d";
+}
+.morph-icon-store:before {
+  content: "\ea3e";
+}
+.morph-icon-StoreBus:before {
+  content: "\ea3f";
+}
+.morph-icon-storeHours:before {
+  content: "\ea40";
+}
+.morph-icon-subtract:before {
+  content: "\ea41";
+}
+.morph-icon-subtractContact:before {
+  content: "\ea42";
+}
+.morph-icon-subtractFile:before {
+  content: "\ea43";
+}
+.morph-icon-sun:before {
+  content: "\ea44";
+}
+.morph-icon-sunrise:before {
+  content: "\ea45";
+}
+.morph-icon-sunset:before {
+  content: "\ea46";
+}
+.morph-icon-syncContact:before {
+  content: "\ea47";
+}
+.morph-icon-tabletGrid:before {
+  content: "\ea48";
+}
+.morph-icon-tank:before {
+  content: "\ea49";
+}
+.morph-icon-telecabin:before {
+  content: "\ea4a";
+}
+.morph-icon-temperatureReduction:before {
+  content: "\ea4b";
+}
+.morph-icon-ticket:before {
+  content: "\ea4c";
+}
+.morph-icon-ticketDownload:before {
+  content: "\ea4d";
+}
+.morph-icon-ticketRefund:before {
+  content: "\ea4e";
+}
+.morph-icon-ticketShare:before {
+  content: "\ea4f";
+}
+.morph-icon-top:before {
+  content: "\ea50";
+}
+.morph-icon-toward:before {
+  content: "\ea51";
+}
+.morph-icon-trash:before {
+  content: "\ea52";
+}
+.morph-icon-truck:before {
+  content: "\ea53";
+}
+.morph-icon-twoDbarcode:before {
+  content: "\ea54";
+}
+.morph-icon-twoXplay:before {
+  content: "\ea55";
+}
+.morph-icon-uav:before {
+  content: "\ea56";
+}
+.morph-icon-unarchive:before {
+  content: "\ea57";
+}
+.morph-icon-union:before {
+  content: "\ea58";
+}
+.morph-icon-unionAlt:before {
+  content: "\ea59";
+}
+.morph-icon-unionHorizAlt:before {
+  content: "\ea5a";
+}
+.morph-icon-unlock:before {
+  content: "\ea5b";
+}
+.morph-icon-up:before {
+  content: "\ea5c";
+}
+.morph-icon-upload:before {
+  content: "\ea5d";
+}
+.morph-icon-uploadAlt:before {
+  content: "\ea5e";
+}
+.morph-icon-uploadFile:before {
+  content: "\ea5f";
+}
+.morph-icon-upside:before {
+  content: "\ea60";
+}
+.morph-icon-upwards:before {
+  content: "\ea61";
+}
+.morph-icon-verifiedContact:before {
+  content: "\ea62";
+}
+.morph-icon-verifiedContactAlt:before {
+  content: "\ea63";
+}
+.morph-icon-verifiedMail:before {
+  content: "\ea64";
+}
+.morph-icon-verifiedStore:before {
+  content: "\ea65";
+}
+.morph-icon-verifiedWallet:before {
+  content: "\ea66";
+}
+.morph-icon-vespa:before {
+  content: "\ea67";
+}
+.morph-icon-voiceMessage:before {
+  content: "\ea68";
+}
+.morph-icon-voiceScan:before {
+  content: "\ea69";
+}
+.morph-icon-volume:before {
+  content: "\ea6a";
+}
+.morph-icon-volumeDecreased:before {
+  content: "\ea6b";
+}
+.morph-icon-volumeDown:before {
+  content: "\ea6c";
+}
+.morph-icon-volumeIncreased:before {
+  content: "\ea6d";
+}
+.morph-icon-volumeProblem:before {
+  content: "\ea6e";
+}
+.morph-icon-volumeUp:before {
+  content: "\ea6f";
+}
+.morph-icon-wallet:before {
+  content: "\ea70";
+}
+.morph-icon-walletAlert:before {
+  content: "\ea71";
+}
+.morph-icon-walletCashOut:before {
+  content: "\ea72";
+}
+.morph-icon-walletExpenses:before {
+  content: "\ea73";
+}
+.morph-icon-walletHelp:before {
+  content: "\ea74";
+}
+.morph-icon-walletHistory:before {
+  content: "\ea75";
+}
+.morph-icon-walletIncome:before {
+  content: "\ea76";
+}
+.morph-icon-walletPassword:before {
+  content: "\ea77";
+}
+.morph-icon-walletRefresh:before {
+  content: "\ea78";
+}
+.morph-icon-walletSync:before {
+  content: "\ea79";
+}
+.morph-icon-walletTransaction:before {
+  content: "\ea7a";
+}
+.morph-icon-warm:before {
+  content: "\ea7b";
+}
+.morph-icon-warplane:before {
+  content: "\ea7c";
+}
+.morph-icon-wavy:before {
+  content: "\ea7d";
+}
+.morph-icon-webGrid:before {
+  content: "\ea7e";
+}
+.morph-icon-wet:before {
+  content: "\ea7f";
+}
+.morph-icon-windCloud:before {
+  content: "\ea80";
+}
+.morph-icon-windCloudy:before {
+  content: "\ea81";
+}
+.morph-icon-wind:before {
+  content: "\ea82";
+}
+.morph-icon-womenProfile:before {
+  content: "\ea83";
+}
+.morph-icon-wrongPassword:before {
+  content: "\ea84";
+}
+.morph-icon-zanbil:before {
+  content: "\ea85";
+}
